@@ -1,0 +1,419 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../img/bg1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #404040;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 3em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: rgba(252, 248, 227, 0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+    }
+
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+.comment{
+    margin-bottom: 30px;          
+}
+.comment h4{
+    margin-left: 15px;
+    text-transform: none;
+}
+footer span{
+    font-weight: 700;
+}
+.registration{
+  margin-bottom: 20px;
+}
+.registration h3{
+        text-align: center;
+        text-transform: none;
+}
+.registration span{
+        text-transform: uppercase;
+}
+.registration a{
+    display: block;
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.4em;
+    padding: 20px;
+    background-color: rgba(63,186,194,0.9);
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.registration a:hover {
+    text-decoration: none;
+    background-color: #A4D792;
+}
+/* This is mod to slider*/
+
+.prev{
+    background-color: rgba(0,0,0,0.5);
+    z-index: 99;
+    position: relative;
+    margin-top: -384px;
+    margin-left: 20px;
+}
+.prev h2{
+    color: white;
+}
+.prev p{
+    color: white;
+}
+.slider_butt{
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 9999999999;
+    position: relative;
+    float:right;
+    margin-top: -300px;
+    background-color: rgba(0,0,0,0.5);
+    padding-bottom: 30px;
+    margin-right: 20px;
+}
+.slider_butt h3{
+    color: white;
+}
+.slider_butt a{
+    display: block;
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.4em;
+    padding: 20px;
+    background-color: rgba(255,90,90,0.9);
+  
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.slider_butt a:hover {
+    text-decoration: none;
+    background-color: #A4D792;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:700);
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.acc {
+  margin: 40px 0 20px;
+  overflow: hidden;
+  padding: 0;
+}
+.acc p{
+    font-size: 16px;
+}
+.acc ol{
+    margin-bottom: 10px;
+}
+.acc ol li {
+  font-size: 15px;
+
+}
+.acc ul li {
+  font-size: 15px;
+}
+.acc span{
+  color: #29712A;
+  font-weight: 700;
+
+}
+.acc h5{
+  margin-top: 20px;
+  margin-bottom: 22px
+}
+.acc_ctrl {
+  background: rgba(178, 171, 153, 0.42);
+  border: none;
+  border-bottom: solid 1px #F2F2F2;
+  cursor: pointer;
+  display: block;
+  outline: none;
+  padding: 0.5em;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.acc_ctrl:before {
+  background: #44596B;
+  content: '';
+  height: 2px;
+  margin-right: 37px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  width: 14px;
+}
+
+.acc_ctrl:after {
+  background: #44596B;
+  content: '';
+  height: 2px;
+  margin-right: 37px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 14px;
+}
+
+.acc_ctrl.active:before {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.acc_ctrl.active h2, .acc_ctrl:focus h2 {
+  position: relative;
+}
+.acc_ctrl h2{
+    font-weight: 400;
+    font-size: 1.4em;
+    margin-top: 0.6em;
+}
+
+.acc_panel {
+  background: rgba(255,255,255,.15);
+    display: none;
+    overflow: hidden;
+    padding: 20px
+}
+.acc img{
+  margin: 0 0 20px 0;
+}
+.video{
+  float: left;
+  margin-right: 50px;
+  padding-bottom: 20px; 
+  position: relative;
+  z-index: 10;
+}
+.proj{
+  margin-bottom: 30px;
+  min-height: 330px;
+}
+
+/*Перелік інвестицій ВКЛАДКА*/
+
+.main_text{
+  margin-top: 30px; 
+}
+.main_text p{
+  font-size: 18px;
+  color: #333;
+}
+.wrapper_video{
+
+}
+.wrapper_video h4{
+  text-align: center;
+  margin-top: 30px;
+  color: #444;
+  font-size: 22px;
+}
+div .wrapper_video h5{
+  font-size: 18px;
+  font-weight: 400;
+  color: #377A37;
+}
+.wrapper_video hr{
+  margin-top: 40px;
+}
